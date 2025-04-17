@@ -1,11 +1,13 @@
 const contacts = [
   {
+    id: 1,
     name: "Zygooning",
     imgURL:"../public/img/Zygooner.jpg",
     phone: "+123 456 969",
     email: "z@ionrey.com"
   },
   {
+    id: 2,
     name: "Genuine Emuach",
     imgURL:
       "../public/img/ToclePakiss.jpg",
@@ -13,6 +15,7 @@ const contacts = [
     email: "tocle@muah.com"
   },
   {
+    id: 3,
     name: "ChorlRizz",
     imgURL:
       "../public/img/ChorlRizzMe.jpg",
@@ -20,6 +23,7 @@ const contacts = [
     email: "sendmeadm@chorls.com"
   },
   {
+    id: 4,
     name: "Shore Keeper",
     imgURL:
       "https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2024/09/wuthering-waves-resonator-showcase-the-shorekeeper-the-beginning-of-our-story-3-50-screenshot.jpg",

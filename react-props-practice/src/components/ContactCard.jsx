@@ -1,4 +1,6 @@
 import React from "react";
+import Avatar from "./Avatar.jsx";
+import Details from "./Details.jsx";
 
 function ContactCard(props) {
   console.log(props);
@@ -6,12 +8,13 @@ function ContactCard(props) {
     <div>
       <div className="card">
         <div className="top">
+          <Details detailInfo={props.id} />
           <h2 className="name">{props.name}</h2>
-          <img src={props.img} alt="avatar_img" className="circle-img" />
+          <Avatar img={props.img} />
         </div>
         <div className="bottom">
-          <p className="info">{props.phone}</p>
-          <p className="info">{props.email}</p>
+          <Details detailInfo={props.phone} />
+          <Details detailInfo={props.email} />
         </div>
       </div>
     </div>
